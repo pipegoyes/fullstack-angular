@@ -31,7 +31,8 @@
 		}, getEmptyMessage = function () {
 			return "Please enter data first";
 		}, setMessage = function (data) {
-			$scope.message = data + "- Elements: " + $scope.numberOfParameters;
+			//$scope.message = data + "- Elements: " + $scope.numberOfParameters;
+			$scope.message = data;
 		}, setNumberOfParameters = function (data) {
 			$scope.numberOfParameters = data; 	
 		}, getNumberParameters = function (data) {
